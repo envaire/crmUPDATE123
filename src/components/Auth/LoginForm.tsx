@@ -3,8 +3,8 @@ import { Mail, Lock, Eye, EyeOff, LogIn } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 
 const LoginForm: React.FC = () => {
-  const [email, setEmail] = useState<string>('javfermor5@gmail.com');
-  const [password, setPassword] = useState<string>('yilber-123');
+  const [email, setEmail] = useState<string>('');
+  const [password, setPassword] = useState<string>('');
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
